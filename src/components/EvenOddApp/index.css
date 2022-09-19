@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  
+.card {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 30%;
+  border-radius: 14px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 45px;
+}
+.para1 {
+  color: #334155;
+  font-size: 25px;
+}
+.button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+}
+.para2 {
+  color: #1e293b;
+  font-size: 10px;
+}
